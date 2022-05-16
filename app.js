@@ -3,6 +3,8 @@ const express = require("express");
 /* Iniciando o express */
 const app = express();
 
+/* importando rotas home */
+const homeRouter = require('./routes/home');
 /* importando rotas de pets */
 const petsRouter = require('./routes/pets');
 /* importando rotas de serviços */
@@ -10,15 +12,15 @@ const servicosRouter = require('./routes/servicos');
 
 /*-----------------------------------------------------------------*/
 
+/* Usando rotas home */
+app.use(homeRouter);
 /* Usando as rotas de pets */
 app.use(petsRouter);
 /* Usando as rotas de servicos */
 app.use(servicosRouter);
 
-/*rota Home (/) usando o método GET */
-app.get("/", (req, res) => {
-    res.send("Bem vindo ao Petshop DH!");
-  });
+
+
 
 
 /*-----------------------------------------------------------------*/
