@@ -3,7 +3,7 @@ const express = require('express');
 /* Iniciando o express Router*/
 const router = express.Router();
 
-const petController = require("../controller/petController");
+const petController = require("../controllers/petController");
 
 
 /* Listando todos os pets cadastrados */

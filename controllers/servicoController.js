@@ -1,6 +1,6 @@
 const servicoController = {
     index: (req, res) => {
-        res.send("Listando todos os Serviços cadastrados");
+        res.render("servicos");
       },
     
       create: (req, res) => {

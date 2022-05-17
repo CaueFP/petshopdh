@@ -3,7 +3,7 @@ const express = require('express');
 /* Iniciando o express Router*/
 const router = express.Router();
 
-const servicoController = require('../controller/servicoController');
+const servicoController = require('../controllers/servicoController');
 
 
 /* Listando todos os serviço cadastrados */
