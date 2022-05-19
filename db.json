@@ -1,0 +1,25 @@
+{
+  "servicos": [
+    {
+        "nome": "Banho e Tosa",
+        "ativo": true,
+        "preco": "R$ 90,00",
+        "imagem": "/img/miniPig.jpg",
+        "descricao": "Banho e tosa para o seu pet ficar cheirosinho!!"
+    },
+    {
+        "nome": "Consulta Veterinária",
+        "preco": "R$ 150,00",
+        "ativo": true,
+        "imagem": "/img/gato.jpg",
+        "descricao": "Consulta completa."
+    },
+    {
+        "nome": "Vacinação",
+        "preco": "R$ 110,00",
+        "ativo": true,
+        "imagem": "/img/viraLata.jpg",
+        "descricao": "Vacinação para o seu pet não ficar doidão."
+    }
+  ]
+}
